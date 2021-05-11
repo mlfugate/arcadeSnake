@@ -1,0 +1,58 @@
+html {
+    display: flex;       
+}
+body {
+    margin: auto;    
+    background-color: white;
+    
+}
+h1 {
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 45px;
+}
+.start-button {
+    float: left;
+    margin: 10px;
+    height: 30px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.restart-button {
+    text-decoration: none;
+    float: right;
+    margin: 10px;
+    height: 30px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#messages {
+    font-family: sans-serif;
+    font-size: 25px;
+    text-decoration: darkgreen;
+}
+#score {
+    text-align: center;
+    font-size: 40px;
+}
+#board {
+    display: grid;
+    justify-content: center;
+    width: 40vw;
+    height: 40vw;
+    grid-template-rows: repeat(20, 1fr);
+    grid-template-columns: repeat(20, 1fr);  
+}
+.cell{
+    background-color: yellow;
+    border: 1px solid black;
+    height: 2rem;
+    width: 2rem;
+}
+.snake {
+    background-color: blue;
+    
+}
+.apple {
+    background-color: black;
+}
+
+
